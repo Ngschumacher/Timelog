@@ -26,6 +26,7 @@ module.exports = (env) => {
                 '@angular/platform-browser-dynamic',
                 '@angular/router',
                 '@angular/platform-server',
+                '@progress/kendo-theme-default/dist/all.css',
                 'angular2-universal',
                 'angular2-universal-polyfills',
                 'bootstrap',
