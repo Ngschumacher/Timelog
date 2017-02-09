@@ -22,6 +22,11 @@
         </tr>
     </tbody>
 </table>-->
+<kendo-grid [data]="forecasts">
+    <kendo-grid-column field="dateFormatted" title="Date"></kendo-grid-column>
+    <kendo-grid-column field="temperatureC" title="Temp. (C)" width="150"></kendo-grid-column>
+    <kendo-grid-column field="temperatureF" title="Temp. (F)" width="150">
+    </kendo-grid-column> <kendo-grid-column field="summary" title="Summary"></kendo-grid-column>
+</kendo-grid>
 
-
-<kendo-grid [data]="forecasts"></kendo-grid> 
+<!--<kendo-grid [data]="forecasts"></kendo-grid>--> 
